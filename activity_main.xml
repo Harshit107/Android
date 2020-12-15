@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--parent layout-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#00ff22"
+    android:gravity="center"
+    >
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your email Id"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:fontFamily="serif-monospace"
+        android:textColor="#780797"
+        android:id="@+id/email_id_et"
+
+        />
+    <TextView
+        android:id="@+id/email_id_tv"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:text="Hi "
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        android:textStyle="italic"
+        android:background="#D81B60"
+        android:fontFamily="serif-monospace"
+        android:textColor="#fff"
+    />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I am Button "
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="italic"
+        android:background="#D81B60"
+        android:fontFamily="serif-monospace"
+        android:textColor="#fff"
+        />
+
+</LinearLayout>
